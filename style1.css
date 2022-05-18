@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+   
+}
+body{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),  url("/images/buildings.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    position:relative;
+    background-attachment: fixed;
+    
+   
+  
+}
+.nav-list{
+    display: flex;
+    flex-direction:row;
+    font-family: 'Open Sans', sans-serif;
+    justify-content:right;
+   
+    margin-top: 0;
+    line-height: 2.5;
+  
+   padding: 4px;
+   
+}
+
+a {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    letter-spacing:0.2px;
+    text-decoration: none;
+    padding: 0 10px;
+
+
+}
+a:after {
+    content: "";
+    position: absolute;
+    background-color:#ff3c7d;
+    height: 3px;
+    width: 0%;
+    bottom: -10px;
+    left: 12px;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgba(59, 55, 56, 0.877);
+}
+a:hover:after{
+    width: 80%;
+}
+   
+.main-wrapper {
+    height: 100vh;
+  
+ 
+}
+   
+
+/* .nav-link:hover {
+    border-bottom: 3px solid red;
+    border-radius: px;
+    transition: 1s;
+} */
+a .fa-home{
+    padding: 4px;
+}
+a .fa-list{
+    padding: 4px;
+}
+a .fa-briefcase{
+    padding: 4px;
+}
+a .fa-user{
+    padding:4px;
+}
+a .fa-comments{
+    padding: 4px;
+}
+ .name{
+    font-size: 32px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.person{
+ border-radius: 1px 21px;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.my-profession{
+  margin-top: 10px;
+}
+
+
+   
+
+    
+
+
